@@ -3,10 +3,7 @@
   width: 427.84px;
   height: 531.34px;
   top: 0px;
-  
   border-radius: 9999px;
-
-
 }
 
 .leftside {
@@ -16,11 +13,10 @@
   width: 568.4px;
   height: 1024px;
   background: linear-gradient(100.82deg, #007983 1.77%, rgba(0, 82, 92, 0) 68.81%);
-
 }
 
 .modelCircle {
-  z-index: 5;
+  z-index: 100;
   overflow: hidden;
   width: 1820.63px;
   height: 1820.63px;
@@ -54,18 +50,16 @@
   top: 204.2px;
   left: 729.84px;
   transform: rotate(245.88deg);
-  
 }
 
 .eclipse3{
   position: absolute;
+  z-index: 0;
   width: 606.29px;
   height: 438.76px;
   top: 532.54px;
   left: 98.96px;
   transform: rotate(132.29deg);
-  /* angle: 42.29 deg; */
-  
 }
 
 .eclipse5{
@@ -77,5 +71,4 @@ left: 470.4px;
 gap: 0px;
 opacity: 0px;
 transform: rotate();
-
 }

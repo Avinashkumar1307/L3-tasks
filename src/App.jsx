@@ -10,7 +10,7 @@ import eclipse5 from './assets/ellipse5.png';
 export default function App() {
   return (
     <>
-      <div className="w-[1366px] h-[1024px] colorr relative overflow-hidden">
+      <div className="w-[1366px] h-[1024px] colorr relative overflow-hidden font-aktiv-grotesk">
         <Header />
         <div className="w-[634px] h-[31px] relative -top-[10px] left-[46px] z-10 text-[24px] text-[#FAFBFC]">
           The Unified Strategy Ecosystem brings together 3 worlds
@@ -51,12 +51,12 @@ export default function App() {
 
         </div>
 
-        <div className="health border-2 border-[#00B2D1] ">
+        <div className="health border-[1px] border-[#00B2D1] ">
 
         </div>
         <div id="eclipse1 text-white bg-red-900 z-30">
           <img src={eclipse1} alt="done" />
-          kaha ho
+          
         </div>
       </div>
       <div className="leftone">
