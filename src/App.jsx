@@ -7,6 +7,7 @@ import eclipse1 from './assets/eclipse1.png'
 import top from './assets/top.png';
 import eclipse3 from './assets/ellipse3.png';
 import eclipse5 from './assets/ellipse5.png';
+import eclipse4 from './assets/ellipse4.png';
 export default function App() {
   return (
     <>
@@ -67,6 +68,12 @@ export default function App() {
       </div>
       <div className="eclipse5 z-50">
         <img src={eclipse5} alt="d" />
+      </div>
+      <div className="eclipse5 z-50">
+        <img src={eclipse5} alt="d" />
+      </div>
+      <div className="eclipse4 z-50">
+        <img src={eclipse4} alt="d" />
       </div>
 
     </>

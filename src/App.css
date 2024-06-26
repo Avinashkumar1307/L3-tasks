@@ -52,7 +52,7 @@
   transform: rotate(245.88deg);
 }
 
-.eclipse3{
+.eclipse3 {
   position: absolute;
   z-index: 0;
   width: 606.29px;
@@ -62,13 +62,25 @@
   transform: rotate(132.29deg);
 }
 
-.eclipse5{
-position: absolute;
-width: 478.14px;
-height: 381.74px;
-top: 783.13px;
-left: 470.4px;
-gap: 0px;
-opacity: 0px;
-transform: rotate();
+.eclipse5 {
+  position: absolute;
+  width: 478.14px;
+  height: 381.74px;
+  top: 783.13px;
+  left: 470.4px;
+  gap: 0px;
+  opacity: 0px;
+  transform: rotate();
+}
+
+.eclipse4 {
+  position: absolute;
+  width: 478.14px;
+  height: 381.74px;
+  top: 413.17px;
+  left: 708.96px;
+  gap: 0px;
+  opacity: 0px;
+  transform: rotate(132.29deg);
+
 }
