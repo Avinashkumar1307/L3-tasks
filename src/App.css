@@ -16,7 +16,6 @@
 }
 
 .modelCircle {
-  z-index: 100;
   overflow: hidden;
   width: 1820.63px;
   height: 1820.63px;
@@ -25,6 +24,15 @@
   top: 276px;
   left: -680px;
   background: linear-gradient(216.6deg, rgba(51, 116, 153, 0.2) 16.24%, rgba(1, 48, 54, 0.2) 37.19%);
+  z-index: 0;
+}
+
+.innerContent {
+  width: 400.11px;
+  height: 205.52px;
+  top: 732.65px;
+  left: 56.89px;
+  position: absolute;
 }
 
 .health {
@@ -54,7 +62,7 @@
 
 .eclipse3 {
   position: absolute;
-  z-index: 0;
+  
   width: 606.29px;
   height: 438.76px;
   top: 532.54px;
